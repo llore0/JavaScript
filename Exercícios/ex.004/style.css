@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+header > h1 {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    text-shadow: 0 0 20px #6d15be;
+    text-decoration: underline;
+}
