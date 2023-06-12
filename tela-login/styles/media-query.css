@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+/* Todas as demais mídeas */
+
+/* 
+Typical Device Breakpoints
+--------------------------
+Pequenas Telas: até 600px
+Celular: 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Grandes telas: acima de 1200px
+*/
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    
+    body {
+        background-image: linear-gradient(to top, #f909c1, #42124A);
+    }
+
+    section#login {
+        width: 90vw;
+    }
+
+    section#login > div#img {
+        float: left;
+        width: 40%;
+        height: 100%;
+    }
+
+    section#login > #form {
+        float: right;
+        width: 60%;
+    }
+
+    section#login > div#form > h1 {
+        font-size: 3em;
+        transform: translateY(17px);
+    }   
+
+    section#login > div#form > p {
+        margin-left: 16px;
+        color: #42124A;
+        font-size: 1em;
+        font-weight: 700;
+        transform: translateY(30px);
+    }
+
+    form > div.campo {
+        margin-left: 16px;
+        width: 100%;
+        height: 40px;
+        transform: translateY(60px);
+    }
+
+    div.campo > input {
+        width: 200px;
+    }
+    
+    form > div.footer {
+        padding-top: 24%;
+    }
+
+    div.footer > input {
+        margin-bottom: 20px;
+    }
+    
+}
+
+@media screen and (min-width: 920px) {
+
+    body {
+        background-image: linear-gradient(to top, #f909c1, #42124A);
+    }
+
+    section#login {
+        width: 950px;
+    }
+
+    section#login > div#img {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    section#login > div#form {
+        float: right;
+        width: 50%;
+    }
+
+    section#login > div#form > p {
+        margin-left: 16px;
+        color: #42124A;
+        font-size: 1.2em;
+        font-weight: 700;
+        transform: translateY(30px);
+    }
+
+    section#login > div#form > h1 {
+        font-size: 3em;
+        transform: translateY(17px);
+    }   
+
+
+    form > div.campo {
+        margin-left: 16px;
+        width: 100%;
+        height: 40px;
+        transform: translateY(60px);
+    }
+
+    div.campo > input {
+        width: 200px;
+    }
+    
+    form > div.footer {
+        padding-top: 24%;
+    }
+
+    div.footer > input {
+        margin-bottom: 20px;
+    }
+
+}
