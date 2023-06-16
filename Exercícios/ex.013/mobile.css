@@ -14,7 +14,7 @@ body, html {
 }
 
 header {
-    margin: 20px;
+    padding: 20px;
     color: white;
     text-align: center;
     font-size: 1.5em;
@@ -25,9 +25,14 @@ section {
     margin: auto;
     padding: 15px;
     background-color: white;
-    width: 500px;
+    width: 400px;
     border-radius: 50px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.519);
+}
+
+div {
+    text-align: center;
+    padding: 8px;
 }
 
 footer {
