@@ -34,16 +34,28 @@ div {
     text-align: center;
 }
 
-div#res, div#dados > p {
-    padding: 10px;
+div#dados > input#txtnum{
+    margin:  8px;
 }
 
-div#res {
+div#dados > input#btnAdd, input#btnEnd {
+    cursor: pointer;
+}
+
+div#dados > input#btnAdd:hover, input#btnEnd:hover {
+    box-shadow: 0 0 10px #83befe;
+}
+
+div#dados > input#btnEnd {
+    margin: 5px;
+}
+
+/* div#dados > select#selArrey, input#btnEnd {
     opacity: 0;
     height: 0;
     transition: opacity .3s, height .3s;
     transition-timing-function: ease;
-}
+} */
 
 footer {
     margin: 20px;

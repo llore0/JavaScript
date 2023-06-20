@@ -6,7 +6,7 @@ function calcular() {
     var vel = Number(txtv.value)
     res.innerHTML = `<p>Sua velocidade atual é de <strong>${vel}</strong> km/h</p>`
     if (vel > 60) {
-        res.innerHTML += `<p>Você está <strong>MUTADO</strong> por excesso de velocidade!`
+        res.innerHTML += `<p>Você está <strong>MUTADO</strong> por excesso de velocidade! (60km/h)</p>`
     }
-    res.innerHTML +=  `<p>Dirija sempre com cinto de segurança!`
+    res.innerHTML +=  `<p>Dirija sempre com cinto de segurança!</p>`
 }

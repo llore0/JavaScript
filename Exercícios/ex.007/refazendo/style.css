@@ -1,0 +1,23 @@
+body {
+    font: normal 1em Arial;
+}
+
+h1 {
+    text-align: center;
+}
+
+div#dados {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+div#res {
+    margin: 20px;
+}
+
+p {
+    text-align: center;
+}
