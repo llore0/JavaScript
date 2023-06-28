@@ -3,7 +3,7 @@ console.log(`Nosso vetor é: ${num} `)
 
 num.sort() // colocando o vetor em ordem crescente
 
-num[2] = 6 // trocou o 1 pelo 6
+num[2] = 6 // trocou o 2 pelo 6
 console.log(`Agora é: ${num}`)
 
 num.push(7) // coloca um número no último lugar do arrey

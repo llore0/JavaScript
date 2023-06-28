@@ -5,5 +5,4 @@ function parimp(n) {
         return 'ímpar'
     }
 }
-
 console.log(parimp(1))

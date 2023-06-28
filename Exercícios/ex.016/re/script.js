@@ -16,18 +16,9 @@ function calcular() {
         var nFim = Number(txtFim.value)
         var nPas = Number(txtPas.value)
 
-        // início
-        if (nIni > 100) {
-            alert('Início - Valor máximo 100!')
-        } else if (nIni < -100) {
-            alert('Início - Valor mínimo -100!')
-        }
-
-        // fim
-        if (nFim > 100) {
-            alert('Fim - Valor máximo 100!')
-        } else if (nFim < -100) {
-            alert('Fim - Valor mínimo -100!')
+        if (nIni > 100 || nIni < -100 || nFim > 100 || nFim < -100) {
+            alert('Valores inválidos! O valor deve estar entre -100 e 100.')
+            return;
         }
 
         // passo
