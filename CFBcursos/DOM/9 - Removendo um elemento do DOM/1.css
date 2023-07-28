@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    background-color: #025;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+#btn_voltar {
+    display: none;
+}
+
+.curso {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    border: 4px solid #888;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.curso:hover {
+    border-color: #f00;
+}
+
+.c1 {
+    background-color: #ccc;
+    color: #444;
+}
+
+.c2 {
+    background-color: #444;
+    color: #ccc;
+}
+
+.caixa {
+    border: 4px solid black;
+    background-color: #eee;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    height: 500px;
+    width: 300px;
+}
+
+.destaque {
+    background-color: #800 !important /* O !importante, faz com que as alterações dessa classes substituam as atuais. */;
+    color: #fcc !important;
+}
+
+.destaque:hover {
+    border-color: rgb(0, 0, 0);
+}
+
+.selecionados {
+    background-color: rgb(4, 179, 4) !important;
+    border: 4px solid black !important;
+    color: black !important;
+    font-weight: bold;
+    text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.453);
+}
+
+.btn_lixeira {
+    position: absolute;
+    width: 25px;
+    right: 217px;
+    transform: translateY(-1px);
+    cursor: pointer;
+}

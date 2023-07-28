@@ -1,4 +1,4 @@
-const caixa1 = document.querySelector('#caixa1'); // Todos os eventos adicionados na div caixa1, vão se propagar pro resto da div.
+const caixa1 = document.querySelector('#caixa1'); 
 const btn_c1 = document.querySelector('#c1');
 const cursos = ['HTML', 'CSS', 'Javascript', 'PHP', 'React', 'MySQL', 'ReactNative']
 
