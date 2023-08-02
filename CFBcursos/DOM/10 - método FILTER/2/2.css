@@ -12,11 +12,6 @@ main {
     width: 100%;
 }
 
-.btns {
-    display: flex;
-    flex-direction: column;
-}
-
 button {
     width: 150px;
     height: 40px;
@@ -24,11 +19,6 @@ button {
     color: white;
     cursor: pointer;
     border-radius: 10px;
-    margin: 20px;
-}
-
-#btn_voltar {
-    display: none;
 }
 
 .curso {
@@ -39,11 +29,17 @@ button {
     border-radius: 10px;
     padding: 10px;
     margin: 5px 0px;
-    display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.selecionado {
+    background-color: rgb(4, 179, 4) !important;
+    border: 4px solid black !important;
+    color: black !important;
+    font-weight: bold;
+    text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.453);
+}
 .curso:hover {
     border-color: #f00;
 }
@@ -71,6 +67,32 @@ button {
     width: 300px;
 }
 
+#caixaNovoFuncionalidades {
+    border: 4px solid black;
+    background-color: #eee;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    height: 500px;
+    width: 300px;
+    text-align: center;
+}
+
+.comandos {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#caixaNovoCurso input {
+    margin: 10px;
+    padding: 5px;
+}
+
 .destaque {
     background-color: #800 !important /* O !importante, faz com que as alterações dessa classes substituam as atuais. */;
     color: #fcc !important;
@@ -80,18 +102,6 @@ button {
     border-color: rgb(0, 0, 0);
 }
 
-.selecionados {
-    background-color: rgb(4, 179, 4) !important;
-    border: 4px solid black !important;
-    color: black !important;
-    font-weight: bold;
-    text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.453);
-}
-
-.btn_lixeira {
-    position: absolute;
-    width: 25px;
-    right: 555px;
-    transform: translateY(-1px);
-    cursor: pointer;
+#nomeCurso {
+    background-color: #dcdcdc;
 }
