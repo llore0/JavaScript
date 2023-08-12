@@ -1,0 +1,39 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    box-sizing: border-box;
+    font-size: large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.caixa {
+    border: 5px solid #000;
+    width: 400px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+input {
+    background-color: #c3c4c5;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.operaçoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 400px;
+}
+
+.btn {
+    background-color: #c3c4c5;
+    width: 30px;
+    cursor: pointer;
+}
