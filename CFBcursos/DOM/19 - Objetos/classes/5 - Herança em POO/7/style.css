@@ -16,11 +16,13 @@
 
 .carro {
     display: flex;
+    flex-direction: column;
     width: 200px;
     padding: 5px;
     background-color: #8cf;
     border: 3px #008 solid;
     border-radius: 5px;
+    margin: 2px;
 }
 
 .campoForm {
@@ -41,4 +43,21 @@
     cursor: pointer;
     padding: 5px;
     border-radius: 5px;
+}
+
+#btnRemove {
+    background-color: rgb(32, 90, 134);
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    width: 100px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+#btnRemove:hover {
+    background-color: rgb(48, 132, 196);
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgb(58, 169, 255);
 }
