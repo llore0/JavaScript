@@ -1,0 +1,151 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    box-sizing: border-box;
+    font-size: large;
+    background-color: #202020;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dflex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: absolute;
+    top: 0;
+    left: -555px;
+    transition: all .3s ease;
+
+}
+
+.calc_exibir {
+    left: 0px !important;
+    transition: all .3s ease;
+}
+
+.calc_principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid #ffffff;
+    box-shadow: 2px 2px 7px 5px #00000088;
+    margin: auto;
+    border-radius: 5px;
+    width: 550px;
+    z-index: 10;
+}
+
+#calc_aba {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-49%,300%);
+    color: rgb(0, 0, 0);
+    z-index: 1;
+    transition: all .3s ease;
+}
+
+.calc_aba_exibir {
+    transform: translate(-7%,300%) !important;   
+    transition: all .3s ease;
+}
+
+#calc_aba span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 35px;
+    height: 50px;
+    background-color: #d3b75e;
+    border-radius: 0px 10px 10px 0px;
+    cursor: pointer;
+}
+
+#calc_aba span:hover {
+    background-color: #ab954d;
+}
+
+#display {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 405px;
+    color: white;
+    font-size: 2em;
+}
+
+.div_teclas {
+    margin: auto;
+    width: 500px;
+    flex-wrap: wrap;
+}
+
+
+.tecla {
+    margin: 1px;
+    background-color: #3b3b3b;
+    border-radius: 5px;
+    color: white;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.tecla:hover {
+    background-color: #323232 !important;
+}
+
+.teclaOp {
+    background-color: #323232;
+    font-size: 1em;
+}
+
+.teclaOp:hover {
+    background-color: #3b3b3b !important;
+}
+
+#limpar {
+    background-color: #323232;
+}
+
+#limpar:hover {
+    background-color: #3b3b3b !important;
+}
+
+#tIgual {
+    background-color: #d3b75e;
+    color: black;
+    width: 406px;
+}
+
+#tIgual:hover {
+    background-color: #ab954d !important;
+}
+
+#tPi p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #323232;
+    margin: 1px;
+    border-radius: 5px;
+    color: white;
+    width: 100px;
+    height: 50px;
+}
+
+#tPi p:hover {
+    background-color: #3b3b3b;
+}
