@@ -1,0 +1,68 @@
+* {
+    border: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.sobrancelha {
+    margin: 5px;
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    border-radius: 50%;
+    transform: translate(105%, -20%);
+    z-index: 0;
+}
+
+.circulo {
+    padding: 150px;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    border-radius: 50%;
+    z-index: 0;
+}
+
+#esquerdo {
+    transform: translate(-10%,3%);
+}
+#direito {
+    transform: translate(-6.5%,3%);
+}
+
+.olho {
+    margin: 5px;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    transform: translateX(-100%);
+    z-index: 5;
+}
+
+.pupila {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    background-color: black;
+    border-radius: 50%;
+    z-index: 5;
+    transform-origin: center center;
+}
